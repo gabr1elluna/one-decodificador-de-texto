@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="assets/laptop-code-solid.svg">
+</head>
+<body>
+    <main class="mainPage">
+        <div class="userInterface">
+            <div class="userInput">
+                <textarea name="nsei" id="userInputStyles" placeholder="Digite seu texto..."></textarea>            
+            </div>
+            <p class="warningText">
+                <img class="warningSign" src="./assets/Vector.png" alt="Círculo amarelo com um sinal de exclamação no meio do círculo">
+                <span><strong>ATENÇÃO!</strong> Não faça uso de caracteres especiais e maiúsculas no input.</span>
+            </p>
+            <div class="userInterfaceButtons">
+                <button class="userInterfaceButtonsStyles" id="buttonCriptografar">Criptografar</button>
+                <button class="userInterfaceButtonsStyles" id="buttonDescriptografar">Descriptografar</button>
+            </div>
+        </div>
+        <div class="encriptArea">
+            <span><p id="resultado"></p></span>
+            <img src="./assets/OOOH-removebg-preview.png" alt="Emoji surpreso">
+            <p><span><strong>CATAPIMBAS! NADA POR AQUI!</strong></span></p>
+            <p><span>Digite um texto que você deseja criptografar ou descriptografar.</span></p>
+            <!--<button class="userInterfaceButtons">Copy</button>-->
+        </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/modal.js"></script>
+</body>
+</html>

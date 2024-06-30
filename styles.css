@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --cor-principal: #E9FA01;
+    --cor-background: #080808;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    background-color: var(--cor-background);
+}
+
+.mainPage {
+    display: flex;
+    margin: 2rem;
+}
+
+.userInterface {
+    display: flex;
+    flex-direction: column; /* Organiza os filhos em coluna */
+    height: 50rem;
+    width: 70rem;
+}
+
+.encriptArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--cor-principal);
+    border-radius: 2rem;
+    width: 42rem;
+    height: 48rem;
+    gap: 3rem;
+}
+
+.userInput {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+#userInputStyles {
+    display: flex;
+    height: 40rem;
+    width: 100%; 
+    background: transparent; 
+    border: none;
+    outline: none; 
+    resize: none;
+    padding: 7rem; 
+    box-sizing: border-box; 
+    font-size: 2rem;
+    color: var(--cor-principal);
+}
+
+#userInputStyles::placeholder {
+    color: var(--cor-principal);
+    opacity: 1;
+}
+
+.userInterfaceButtons {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.userInterfaceButtonsStyles {
+    background-color: var(--cor-background);
+    color: var(--cor-principal);
+    border: 2px solid var(--cor-principal);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 25rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.userInterfaceButtonsStyles:hover {
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: var(--cor-principal);
+    color: var(--cor-background);
+}
+
+.warningText {
+    display: flex;
+    justify-content: center;
+}
+
+.warningSign {
+    float: left;
+    margin-right: .3rem;
+}
+
+span {
+    color: var(--cor-principal);
+}
+
+.encriptArea > img {
+    display: flex;
+    animation: pulse 0.8s infinite;}
+    @keyframes pulse {
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+}
+
