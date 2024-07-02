@@ -9,28 +9,32 @@
 </head>
 <body>
     <main class="mainPage">
+        <img class="logoAlura" src="./assets/logoAluraAmarelo.png" alt="Letra 'a' da logo da Alura na cor branca">
         <div class="userInterface">
-            <div class="userInput">
-                <textarea name="nsei" id="userInputStyles" placeholder="Digite seu texto..."></textarea>            
+            <div class="userInputTextArea">
+                <textarea name="User's Input" id="userInput" placeholder="Digite seu texto..."></textarea>            
             </div>
             <p class="warningText">
-                <img class="warningSign" src="./assets/Vector.png" alt="Círculo amarelo com um sinal de exclamação no meio do círculo">
+                <img class="warningSign" src="./assets/warning.png" alt="Círculo amarelo com um sinal de exclamação no meio do círculo">
                 <span><strong>ATENÇÃO!</strong> Não faça uso de caracteres especiais e maiúsculas no input.</span>
             </p>
             <div class="userInterfaceButtons">
                 <button class="userInterfaceButtonsStyles" id="buttonCriptografar">Criptografar</button>
                 <button class="userInterfaceButtonsStyles" id="buttonDescriptografar">Descriptografar</button>
+                <button class="userInterfaceButtonsStyles" id="pasteTextButton">Colar Texto</button>
             </div>
         </div>
         <div class="encriptArea">
-            <span><p id="resultado"></p></span>
+            <div class="encriptAreaDefault">
             <img src="./assets/OOOH-removebg-preview.png" alt="Emoji surpreso">
-            <p><span><strong>CATAPIMBAS! NADA POR AQUI!</strong></span></p>
+            <p><span><strong>ESSA NÃO! HÁ NADA POR AQUI!</strong></span></p>
             <p><span>Digite um texto que você deseja criptografar ou descriptografar.</span></p>
-            <!--<button class="userInterfaceButtons">Copy</button>-->
+            </div>
+            <textarea name="Encript Area" id="output" hidden></textarea>
+            <button class="userInterfaceButtonsStyles" id="copyButton" hidden>Copiar</button>
         </div>
     </main>
     <script src="./scripts/script.js"></script>
-    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/copyAndPaste.js"></script>
 </body>
 </html>

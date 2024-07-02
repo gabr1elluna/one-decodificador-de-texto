@@ -1,5 +1,5 @@
 function criptografarTexto() {
-    const userInput = document.getElementById('userInputStyles'); 
+    const userInput = document.getElementById('userInput'); 
     let userInputValue = userInput.value;
 
     userInputValue = userInputValue.replace(/[aeiou]/g, function(match) {
@@ -13,13 +13,18 @@ function criptografarTexto() {
         return encript[match];
     });
 
-    document.getElementById('resultado').textContent = userInputValue;
-}
-document.getElementById('buttonCriptografar').addEventListener('click', criptografarTexto);
+    document.getElementById('output').textContent = userInputValue;
 
+    hideEncriptAreaDefault()
+}
+document.getElementById('buttonCriptografar').addEventListener('click', () => {
+    criptografarTexto();
+    unhideCopyButton();
+    unhideOutput();
+})
 
 function descriptografarTexto() {
-    const userInput = document.getElementById('userInputStyles'); 
+    const userInput = document.getElementById('userInput'); 
     let userInputValue = userInput.value;
 
     const decript = {
@@ -32,6 +37,31 @@ function descriptografarTexto() {
 
     userInputValue = userInputValue.replace(/(ai|enter|imes|ober|ufat)/gi, match => decript[match])
 
-    document.getElementById('resultado').textContent = userInputValue;
+    document.getElementById('output').textContent = userInputValue;
+    
+    hideEncriptAreaDefault()
 }
-document.getElementById('buttonDescriptografar').addEventListener('click', descriptografarTexto);
+document.getElementById('buttonDescriptografar').addEventListener('click', () => {
+    descriptografarTexto();
+    unhideCopyButton();
+    unhideOutput();
+})
+
+function hideEncriptAreaDefault() {
+    const encriptAreaDefault = document.querySelector('.encriptAreaDefault')
+    encriptAreaDefault.style.display = 'none'
+}
+
+function unhideCopyButton() {
+    const copyButton = document.getElementById('copyButton')
+    copyButton.hidden = false
+}
+
+function unhideOutput() {
+    const output = document.getElementById('output')
+    output.hidden = false
+}
+
+document.getElementById('output').addEventListener('focus', function(event) {
+    event.target.blur();
+});
