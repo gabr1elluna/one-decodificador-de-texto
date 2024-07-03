@@ -24,7 +24,7 @@ Você pode vizualizar o projeto no seu navegador das seguintes maneiras:
   git clone https://github.com/gabr1elluna/one-decodificador-de-texto.git
  ```
  2. Baixando a pasta .zip
- 3. <a href="#">Vercel</a>
+ 3. <a href="https://one-decodificador-de-texto.vercel.app">Vercel</a>
  4. <a>Site Pessoal (em construção)</a>
 
 <br>
