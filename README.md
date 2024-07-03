@@ -15,9 +15,9 @@ O projeto consistia em construir um decodificador de texto que seguia uma lógic
 <br>
 <br>
 
-### COMO VIZUALIZAR O PROJETO?
+### COMO VISUALIZAR O PROJETO?
 
-Você pode vizualizar o projeto no seu navegador das seguintes maneiras:
+Você pode visualizar o projeto no seu navegador das seguintes maneiras:
 
  1. Clonando o repositório:
 ```
@@ -29,4 +29,4 @@ Você pode vizualizar o projeto no seu navegador das seguintes maneiras:
 
 <br>
 
-Obrigado por vizualizar esse repositório e, principalmente, obrigado à equipe da Oracle Next Education e da Alura LATAM pela oportunidade de aprimorar minhas habilidades e ampliar meus conhecimentos!
+Obrigado por visualizar esse repositório e, principalmente, obrigado à equipe da Oracle Next Education e da Alura LATAM pela oportunidade de aprimorar minhas habilidades e ampliar meus conhecimentos!
