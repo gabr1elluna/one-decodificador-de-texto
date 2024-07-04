@@ -2,7 +2,14 @@
 ![project test](https://github.com/gabr1elluna/one-decodificador-de-texto/assets/129898415/63cee3ee-b204-417d-8836-d10f57793024)
 
 
+## Índice
+1. [Introdução](#introdução)
+2. [Contéudo](#conteúdo)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Como visualizar o projeto](#como-visualizar-o-projeto)
 
+
+## Introdução
 Esse é um projeto que foi proposto durante a Oracle Next Education (ONE) em parceria com a Alura!
 <br>
 O projeto consistia em construir um decodificador de texto que seguia uma lógica que você pode checar no arquivo `script.js`.
@@ -18,7 +25,7 @@ Mas, para aqueles que possuem mais dificuldade para encontrar esse tipo de conte
 O desafio visa trabalhar a lógica de programação com JavaScript, reforçar os conhecimentos adquiridos de HTML e CSS e incentivar o candidato a pesquisar, mergulhar a fundo atrás de documentações, informações e métodos de resolução de problema. 
 
 
-## CONTEÚDO PRESENTE NO PROJETO
+## CONTEÚDO
 
 <ul>
  <li>Opção de copiar e colar na interface do usuário (Botões "Copiar" e "Colar Texto")</li>
@@ -41,7 +48,7 @@ O desafio visa trabalhar a lógica de programação com JavaScript, reforçar os
   ![errorMessage2](https://github.com/gabr1elluna/one-decodificador-de-texto/assets/129898415/0b3f0ff1-d85a-49d2-b2ab-e08c6f438c94)
 --------
 
-## TECNOLOGIAS UTILIZADAS DURANTE A PRODUÇÃO DO PROJETO
+## TECNOLOGIAS UTILIZADAS
 
 <img align="left" alt="JavaScript" width="32px" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" />
 <img align="left" alt="HTML5" width="32px" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" />
@@ -51,7 +58,7 @@ O desafio visa trabalhar a lógica de programação com JavaScript, reforçar os
 <br>
 <br>
 
-### COMO VISUALIZAR O PROJETO?
+### COMO VISUALIZAR O PROJETO
 
 Você pode visualizar o projeto no seu navegador das seguintes maneiras:
 
