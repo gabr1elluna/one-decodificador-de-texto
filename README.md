@@ -16,8 +16,7 @@ Mas, para aqueles que possuem mais dificuldade para encontrar esse tipo de conte
 </ol>
 
 O desafio visa trabalhar a lógica de programação com JavaScript, reforçar os conhecimentos adquiridos de HTML e CSS e incentivar o candidato a pesquisar, mergulhar a fundo atrás de documentações, informações e métodos de resolução de problema. 
-<br>
-Foi verdadeiramente divertido e interessante trabalhar neste projeto, e este é apenas o começo!
+
 
 ## CONTEÚDO PRESENTE NO PROJETO
 
@@ -63,3 +62,5 @@ Você pode visualizar o projeto no seu navegador das seguintes maneiras:
 <br>
 
 Obrigado por visualizar esse repositório e, principalmente, obrigado à equipe da Oracle Next Education e da Alura LATAM pela oportunidade de aprimorar minhas habilidades e ampliar meus conhecimentos!
+<br>
+Foi verdadeiramente divertido e interessante trabalhar neste projeto, e este é apenas o começo!
