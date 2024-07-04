@@ -51,6 +51,7 @@ body {
     width: 42rem;
     height: 48rem;
     gap: 3rem;
+    font-weight: 600;
 }
 
 .errorMessage {
@@ -60,7 +61,7 @@ body {
     align-items: center;
     margin: 2rem;
     position: relative;
-    top: 10rem;
+    top: 12rem;
 }
 
 .errorMessage > img {
@@ -215,4 +216,12 @@ span {
 #copyButton {
     position: fixed;
     top: 43.8rem;
+}
+
+.footerIndex {
+    padding: 24px;
+    background-color: var(--cor-background);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
 }

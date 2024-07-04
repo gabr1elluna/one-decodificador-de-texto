@@ -22,6 +22,7 @@ document.getElementById('buttonCriptografar').addEventListener('click', () => {
     unhideCopyButton();
     unhideOutput();
     errorMessage("criptografar");
+    verifyUpperCaseAndSpecialChars("criptografar");
 })
 
 function descriptografarTexto() {
@@ -47,6 +48,7 @@ document.getElementById('buttonDescriptografar').addEventListener('click', () =>
     unhideCopyButton();
     unhideOutput();
     errorMessage("descriptografar");
+    verifyUpperCaseAndSpecialChars("descriptografar");
 })
 
 function hideEncryptAreaDefault() {
@@ -92,4 +94,18 @@ function errorMessage(action) {
             errorMessageDiv.style.display = 'none'
         }
     }
+}
+
+function verifyUpperCaseAndSpecialChars(action) {
+    const userInput = document.getElementById('userInput')
+    const output = document.getElementById('output')
+    const specialChars = /[!@#$%^&*(),.?":{}|<>]/g
+    const upperCase = /[A-Z]/
+
+    if ((action === 'criptografar' || action === 'descriptografar') && (specialChars.test(userInput.value.trim()) || upperCase.test(userInput.value.trim()))){
+        alert("Evite utilizar caracteres especiais ou letras maiúsculas.")
+        output.textContent = "Tente novamente mas sem o uso de maiúsculas ou caracteres especiais."       
+        return false
+    }
+    return true
 }
