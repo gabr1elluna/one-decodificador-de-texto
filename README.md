@@ -3,7 +3,7 @@
 
 
 
-Esse é um projeto proposto durante a Oracle Next Education (ONE) em parceria com a Alura!
+Esse é um projeto que foi proposto durante a Oracle Next Education (ONE) em parceria com a Alura!
 <br>
 O projeto consistia em construir um decodificador de texto que seguia uma lógica que você pode checar no arquivo `script.js`.
 <br>
@@ -63,6 +63,6 @@ Você pode visualizar o projeto no seu navegador das seguintes maneiras:
 
 <br>
 
-Obrigado por visualizar esse repositório e, principalmente, obrigado à equipe da Oracle Next Education e da Alura LATAM pela oportunidade de aprimorar minhas habilidades e ampliar meus conhecimentos!
+Obrigado por visualizar esse repositório e, principalmente, obrigado à equipe da ONE e da Alura pela oportunidade de aprimorar minhas habilidades e ampliar meus conhecimentos!
 <br>
 Foi verdadeiramente divertido e interessante trabalhar neste projeto, e este é apenas o começo!
