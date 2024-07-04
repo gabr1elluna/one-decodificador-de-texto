@@ -9,7 +9,7 @@
 4. [Como visualizar o projeto](#como-visualizar-o-projeto)
 
 
-## Introdução
+## INTRODUÇÃO
 Esse é um projeto que foi proposto durante a Oracle Next Education (ONE) em parceria com a Alura!
 <br>
 O projeto consistia em construir um decodificador de texto que seguia uma lógica que você pode checar no arquivo `script.js`.
