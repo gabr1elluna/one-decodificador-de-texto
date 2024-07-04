@@ -32,7 +32,8 @@ body {
     width: 70rem;
 }
 
-.encriptArea {
+.encryptArea {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +43,7 @@ body {
     height: 48rem;
 }
 
-.encriptAreaDefault {
+.encryptAreaDefault {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +52,81 @@ body {
     height: 48rem;
     gap: 3rem;
 }
+
+.errorMessage {
+    display: none;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: 2rem;
+    position: relative;
+    top: 10rem;
+}
+
+.errorMessage > img {
+    animation: jello-horizontal 1.8s infinite;
+}
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
 
 .userInputTextArea {
     display: flex;
@@ -117,7 +193,7 @@ span {
     color: var(--cor-principal);
 }
 
-.encriptAreaDefault > img {
+.encryptAreaDefault > img {
     display: flex;
     animation: pulse 0.8s infinite;}
     @keyframes pulse {

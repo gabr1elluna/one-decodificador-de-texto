@@ -24,13 +24,18 @@
                 <button class="userInterfaceButtonsStyles" id="pasteTextButton">Colar Texto</button>
             </div>
         </div>
-        <div class="encriptArea">
-            <div class="encriptAreaDefault">
-            <img src="./assets/OOOH-removebg-preview.png" alt="Emoji surpreso">
-            <p><span><strong>ESSA NÃO! HÁ NADA POR AQUI!</strong></span></p>
+        <div class="encryptArea">
+            <div class="encryptAreaDefault">
+            <img src="./assets/surprisedEmoji.png" alt="Emoji surpreso">
+            <p><span><strong>ESSA NÃO! NADA POR AQUI!</strong></span></p>
             <p><span>Digite um texto que você deseja criptografar ou descriptografar.</span></p>
             </div>
-            <textarea name="Encript Area" id="output" hidden></textarea>
+            <div class="errorMessage">
+                <img src="./assets/confusedEmoji.png" alt="Emoji confuso">
+                <p><span><strong>OH NÃO! ALGO DEU ERRADO!</strong></span></p>
+                <h4><span>Insira algum texto antes de criptografar ou descriptografar.</span></h4>
+            </div>
+            <textarea name="Encrypt Area" id="output" hidden></textarea>
             <button class="userInterfaceButtonsStyles" id="copyButton" hidden>Copiar</button>
         </div>
     </main>
